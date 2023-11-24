@@ -10,7 +10,14 @@
 
 [1-print_square.js](./1-print_square.js)
 
--   A program that prints a square with the character #, in Javascript.
+-   A program that prints a square with the character #, in JavaScript.
     The size of the square must be the first argument of the program.
 -   `Bug`: The problem with the program was it converted the size argument in
     base 16.
+
+[2-sort.rb](./2-sort.rb)
+
+-   A ruby program that sorts given numbers as arguments.
+-   `Bug`: The problem was when inserting a number into the sorted list, it
+    inserted them at `i-1` instead of `i`, which in the former case it will
+    cause numbers that should have come front go to the end.
