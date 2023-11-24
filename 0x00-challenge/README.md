@@ -29,3 +29,10 @@
   `_password` instead of `__password`. And second, the `is_valid_password`
   method converted the md5 value of `pwd` to upper when comparing it with
   `__password`.
+
+[4-delete_dnodeint/](./4-delete_dnodeint/)
+
+- A C implementation of a doubly linked list.
+- `Bug`: The problem is found in the `delete_dnodeint_at_index` function. When
+  deleting a node at a valid index, it did not connect the previous and
+  subsequent nodes of the node to be deleted.
